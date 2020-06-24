@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="DTextView">
+        <attr name="textFontFace" format="enum">
+            <enum name="LIGHT" value="1" />
+            <enum name="REGULAR" value="2" />
+            <enum name="BOLD" value="3" />
+        </attr>
+        <attr name="leftDrawable" format="reference" />
+        <attr name="rightDrawable" format="reference" />
+        <attr name="topDrawable" format="reference" />
+        <attr name="bottomDrawable" format="reference" />
+        <attr name="tintColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="SimpleRatingBar">
+        <attr name="srb_borderColor" format="color" />
+        <attr name="srb_fillColor" format="color" />
+        <attr name="srb_backgroundColor" format="color" />
+        <attr name="srb_starBackgroundColor" format="color" />
+        <attr name="srb_pressedBorderColor" format="color" />
+        <attr name="srb_pressedFillColor" format="color" />
+        <attr name="srb_pressedBackgroundColor" format="color" />
+        <attr name="srb_pressedStarBackgroundColor" format="color" />
+        <attr name="srb_numberOfStars" format="integer" />
+        <attr name="srb_starSize" format="dimension" />
+        <attr name="srb_maxStarSize" format="dimension" />
+        <attr name="srb_starsSeparation" format="dimension" />
+        <attr name="srb_starBorderWidth" format="float" />
+        <attr name="srb_starCornerRadius" format="float" />
+        <attr name="srb_isIndicator" format="boolean" />
+        <attr name="srb_rating" format="float" />
+        <attr name="srb_stepSize" format="float" />
+        <attr name="srb_drawBorderEnabled" format="boolean" />
+        <attr name="srb_gravity" format="enum">
+            <enum name="left" value="0" />
+            <enum name="right" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="AutofitTextView">
+        <!-- Minimum size of the text. -->
+        <attr name="minTextSize" format="dimension" />
+        <!-- Amount of precision used to calculate the correct text size to fit within its
+        bounds. Lower precision is more precise and takes more time. -->
+        <attr name="precision" format="float" />
+        <!-- Defines whether to automatically resize text to fit to the view's bounds. -->
+        <attr name="sizeToFit" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="ZigzagView">
+        <attr name="zigzagHeight" format="dimension" />
+        <attr name="zigzagElevation" format="dimension" />
+        <attr name="zigzagBackgroundColor" format="color" />
+        <attr name="zigzagPaddingContent" format="dimension" />
+        <attr name="zigzagPadding" format="dimension" />
+        <attr name="zigzagPaddingLeft" format="dimension" />
+        <attr name="zigzagPaddingRight" format="dimension" />
+        <attr name="zigzagPaddingBottom" format="dimension" />
+        <attr name="zigzagPaddingTop" format="dimension" />
+        <attr name="zigzagSides">
+            <flag name="top" value="1" />
+            <flag name="bottom" value="2" />
+        </attr>
+        <attr name="zigzagShadowAlpha" format="float" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">TodoList</string>
+
+    <string name="exit_msg">Press Back twice to exit</string>
+    <string name="choose_gallery">Pick From Gallery</string>
+    <string name="choose_file">Take From Files</string>
+    <string name="choose_camera">Take From Camera</string>
+    <string name="permission_msg">Gallery and Camera permission is required</string>
+    <string name="btn_ok">OK</string>
+    <string name="add">ADD</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="done">Done</string>
+    <string name="cancel">Cancel</string>
+    <string name="clear">Clear</string>
+    <string name="search">Search</string>
+    <string name="data_not_found">Data Not Found!</string>
+    <string name="click_on_add_button_to_nadd_new_todo_item">Click on Add button to\nAdd new Todo Item</string>
+</resources>

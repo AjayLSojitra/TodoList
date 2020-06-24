@@ -1,0 +1,453 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="SplashTheme" parent="AppTheme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="Toolbar" parent="Theme.AppCompat">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="CropTheme" parent="Base.Theme.AppCompat">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="title_bar">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="txt_fff_20_b">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+    <style name="txt_fff_22">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">22sp</item>
+    </style>
+
+    <style name="txt_fff_24">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="txt_fff_20">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="txt_fff_18">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="txt_fff_16">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="txt_fff_14">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="txt_fff_12">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="txt_fff_11">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">11sp</item>
+    </style>
+
+    <style name="txt_fff_10">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <style name="txt_333_20_b">
+        <item name="android:textColor">#333333</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="txt_333_22">
+        <item name="android:textColor">#333333</item>
+        <item name="android:textSize">22sp</item>
+    </style>
+
+    <style name="txt_333_20">
+        <item name="android:textColor">#333333</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="txt_333_18">
+        <item name="android:textColor">#333333</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="txt_333_15">
+        <item name="android:textColor">#333333</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="txt_333_16">
+        <item name="android:textColor">#333333</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="txt_333_14">
+        <item name="android:textColor">#333333</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="txt_333_12">
+        <item name="android:textColor">#333333</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="txt_333_10">
+        <item name="android:textColor">#333333</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <style name="txt_333_9">
+        <item name="android:textColor">#333333</item>
+        <item name="android:textSize">9sp</item>
+    </style>
+
+    <style name="txt_666_16">
+        <item name="android:textColor">#666666</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="txt_666_18">
+        <item name="android:textColor">#666666</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="txt_424a4d_16">
+        <item name="android:textColor">#424a4d</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+
+    <style name="txt_666_14">
+        <item name="android:textColor">#666666</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="txt_666_12">
+        <item name="android:textColor">#666666</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="txt_666_11">
+        <item name="android:textColor">#666666</item>
+        <item name="android:textSize">11sp</item>
+    </style>
+
+    <style name="txt_666_10">
+        <item name="android:textColor">#666666</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <style name="txt_999_">
+        <item name="android:textColor">#999999</item>
+    </style>
+
+    <style name="txt_333_">
+        <item name="android:textColor">#333333</item>
+    </style>
+
+    <style name="txt_666_">
+        <item name="android:textColor">#666666</item>
+    </style>
+
+    <style name="txt_d7d7d7_22">
+        <item name="android:textColor">#d7d7d7</item>
+        <item name="android:textSize">22sp</item>
+    </style>
+
+    <style name="txt_d7d7d7_20">
+        <item name="android:textColor">#d7d7d7</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="txt_d7d7d7_18">
+        <item name="android:textColor">#d7d7d7</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="txt_d7d7d7_16">
+        <item name="android:textColor">#d7d7d7</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="txt_d7d7d7_14">
+        <item name="android:textColor">#d7d7d7</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="txt_d7d7d7_12">
+        <item name="android:textColor">#d7d7d7</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="txt_d7d7d7_11">
+        <item name="android:textColor">#d7d7d7</item>
+        <item name="android:textSize">11sp</item>
+    </style>
+
+    <style name="txt_d7d7d7_10">
+        <item name="android:textColor">#d7d7d7</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <style name="txt_4194cc">
+        <item name="android:textColor">#4194cc</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="txt_dash">
+        <item name="android:textColor">#999999</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="txt_dash_sel">
+        <item name="android:textColor">@color/green</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="set_padding">
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:paddingTop">15dp</item>
+        <item name="android:paddingBottom">15dp</item>
+    </style>
+
+    <style name="set_padding_">
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+    </style>
+
+    <style name="txt_theme_12">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="txt_theme_14">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="txt_theme_16">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="txt_theme_18">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="txt_000_18">
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="txt_000_16">
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="txt_000_14">
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="txt_000_12">
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="txt_999_18">
+        <item name="android:textColor">#999999</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="txt_999_16">
+        <item name="android:textColor">#999999</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="txt_999_14">
+        <item name="android:textColor">#999999</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="txt_999_13">
+        <item name="android:textColor">#999999</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <style name="txt_999_10">
+        <item name="android:textColor">#999999</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <style name="txt_999_12">
+        <item name="android:textColor">#999999</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="txt_chat_desc_12">
+        <item name="android:textColor">#a8b0b3</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="txt_chat_time_12">
+        <item name="android:textColor">#808183</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="txt_ddd_14">
+        <item name="android:textColor">#DDDDDD</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="txt_green_12">
+        <item name="android:textColor">@color/green</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="txt_green_14">
+        <item name="android:textColor">@color/green</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="txt_green_16">
+        <item name="android:textColor">@color/green</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="txt_green_18">
+        <item name="android:textColor">@color/green</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="txt_blue">
+        <item name="android:textColor">#005baa</item>
+    </style>
+
+    <style name="txt_red_14">
+        <item name="android:textColor">#FF0000</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="txt_red_12">
+        <item name="android:textColor">#FF0000</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="txt_red_22">
+        <item name="android:textColor">#FF0000</item>
+        <item name="android:textSize">22sp</item>
+    </style>
+
+    <style name="txt_orange_20">
+        <item name="android:textColor">#ffab40</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="txt_db_14">
+        <item name="android:textColor">#005baa</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="txt_db_16">
+        <item name="android:textColor">#005baa</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="txt_db_12">
+        <item name="android:textColor">#005baa</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="txt_rap">
+        <item name="android:textColor">#1158a5</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="txt_dis">
+        <item name="android:textColor">#d21717</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="txt_price_crt">
+        <item name="android:textColor">#921711</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="txt_total_amt">
+        <item name="android:textColor">#415e14</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="txt_orange_12">
+        <item name="android:textColor">@color/orange</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="txt_green_dark_12">
+        <item name="android:textColor">@color/green</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="txt_green_dark_10">
+        <item name="android:textColor">@color/green</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <style name="txt_reject_12">
+        <item name="android:textColor">@color/reject</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="txt_reject_14">
+        <item name="android:textColor">@color/reject</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="txt_reject_16">
+        <item name="android:textColor">@color/reject</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="txt_reject_18">
+        <item name="android:textColor">@color/reject</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+</resources>

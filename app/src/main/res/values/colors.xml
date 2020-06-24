@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="orange">#FF9900</color>
+    <color name="green">#009900</color>
+    <color name="blue">#000099</color>
+    <color name="transparent">#00ffffff</color>
+
+    <color name="accept">#319373</color>
+    <color name="reject">#9b1d1d</color>
+    <color name="block">#865912</color>
+
+    <color name="colorRating">#fccd0b</color>
+    <color name="color_gray">#d6d6d6</color>
+    <color name="dialog_bg">#f2f1ef</color>
+    <color name="list_devider">#e6e6e6</color>
+    <color name="gray_light">#d0d0d0</color>
+    <color name="gray_light_">#999999</color>
+    <color name="gray_light__">#eeeeee</color>
+    <color name="gray_light___">#e6e6e6</color>
+    <color name="gray_light____">#d3d1d2</color>
+</resources>

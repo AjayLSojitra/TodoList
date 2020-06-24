@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="@color/colorPrimary"
+    android:minHeight="?attr/actionBarSize"
+    android:orientation="horizontal"
+    app:contentInsetStart="0dp"
+    app:popupTheme="@style/Theme.AppCompat.Light.DarkActionBar"
+    app:theme="@style/Toolbar">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/tvTitleText"
+                style="@style/txt_fff_18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/roboto_condensed_bold"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="@string/app_name" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/ivBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|start"
+            android:contentDescription="@null"
+            android:padding="10dp"
+            android:src="@drawable/ic_arrow_back_24dp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tvAddNewTodo"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|end"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:background="@drawable/rect_border_gray"
+            android:fontFamily="@font/roboto_condensed_bold"
+            android:gravity="center"
+            android:paddingStart="@dimen/_10sdp"
+            android:paddingEnd="@dimen/_10sdp"
+            android:paddingTop="@dimen/_5sdp"
+            android:paddingBottom="@dimen/_5sdp"
+            android:singleLine="true"
+            android:text="@string/add"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12sdp" />
+    </FrameLayout>
+</androidx.appcompat.widget.Toolbar>
